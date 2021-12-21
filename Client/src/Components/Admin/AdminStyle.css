@@ -1,0 +1,55 @@
+/* AdminLogin.Js */
+.admin-form{
+    width: 35rem;
+    padding: 2rem;
+    border: 1px solid rgb(247, 241, 241);
+    border-radius: 2rem;
+    margin: 12rem auto;
+    text-align: left;
+    background-color: rgba(122, 113, 113, 0.4);
+}
+.admin-form Button{
+    margin: 30px 20px;
+}
+.admin-form Button:hover{
+    background-color: gold;
+    cursor: pointer;
+    color: black;
+}
+
+/* CreateForm.js */
+
+.dynamic-form{
+    margin: 15rem auto;
+}
+.Acontent-left{
+    position:absolute;
+    top: 8%;
+    left:10%;
+}
+.Acontent-right{
+    position:absolute;
+    top: 5%;
+    left: 40%;
+}
+.Acontent-right h1{
+    font-size: 4rem;
+}
+
+/* DynamicForm.js */
+.Dynamic-table{
+    margin: 15rem auto;
+}
+.form-title1{
+    position: absolute;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    top: 24%;
+}
+.banner-modal{
+    position: absolute;
+    width: 50rem;
+    height: 40rem;
+    top: 10%;
+}

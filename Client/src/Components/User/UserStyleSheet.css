@@ -1,0 +1,97 @@
+.login-card{
+    width: 40rem;
+    margin:10rem auto ;
+    padding: 2rem;
+    border: 1px solid rgb(247, 241, 241);
+    border-radius: 1rem;
+    background-color: rgb(241, 234, 234);
+}
+.login-card input{
+    width: 20rem;
+    height: 2.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.login-body{
+    margin: 3rem 6rem;
+    padding: 1rem;
+}
+.login-card Button{
+    margin-right: 2rem;
+}
+.login-card Button:hover{
+    background-color: gold;
+    cursor: pointer;
+    color: black;
+}
+
+/* update-form */
+.update-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+}
+.form-title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.content-left{
+    position:absolute;
+    top: 8%;
+    left:10%;
+}
+.content-right{
+    position:absolute;
+    top: 5%;
+    left: 40%;
+}
+.content-right h1{
+    font-size: 5rem;
+}
+.form-body{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20rem;
+    margin-top: 5rem;
+}
+.form-banner{
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.basic-inputs{
+    width: 35%;
+    margin-top: 10%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+/* EditForm.js */
+.EditForm-Content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+}
+
+.EditForm-banner{
+   width: 45%;
+   border: 1px solid red;
+}
+
+.EditForm-banner img{
+    width: 40rem;
+    height: 40rem; 
+}
+
+.EditForm-fields{
+    width: 45%;
+ }
+
